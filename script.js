@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     let projects = [
         { name: "Apollo Flight Program", url: "https://patreon.com/ApolloFlightProgram" },
-        { name: "My Minigames", url: "https://github.com/yossebastiands/study-summarizer" },
+        { name: "My Minigames", url: "https://yosminigames.netlify.app/" },
+        { name: "CompFlight - Recommended Learning Materials to Computer Science", url: "https://docs.google.com/spreadsheets/d/1iFqpD9wHf0c_oYRQfcMb3hcj0uULel-LASUyk0lLUyY/edit?usp=sharing" },
     ];
     
     let projectList = document.getElementById("projects-list");
