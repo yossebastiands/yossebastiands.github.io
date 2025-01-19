@@ -2,13 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let projects = [
         { name: "Apollo Flight Program", url: "https://patreon.com/ApolloFlightProgram" },
         { name: "My Minigames", url: "https://github.com/yossebastiands/study-summarizer" },
-        { name: "Apollo Flight Program", url: "https://patreon.com/ApolloFlightProgram" },
-        { name: "My Minigames", url: "https://github.com/yossebastiands/study-summarizer" },
-        { name: "Apollo Flight Program", url: "https://patreon.com/ApolloFlightProgram" },
-        { name: "My Minigames", url: "https://github.com/yossebastiands/study-summarizer" },
-        { name: "Apollo Flight Program", url: "https://patreon.com/ApolloFlightProgram" },
-        { name: "My Minigames", url: "https://github.com/yossebastiands/study-summarizer" },
-        
     ];
     
     let projectList = document.getElementById("projects-list");
