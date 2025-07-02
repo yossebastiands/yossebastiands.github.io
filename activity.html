@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Activity Log | Yos Sebastian</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #0c0222;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .activity-container {
+      padding: 100px 20px 60px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .activity-container h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .activity-section {
+      margin-top: 60px;
+    }
+
+    .embed-wrapper {
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto 60px;
+      background-color: #1a0933;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(113, 39, 186, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .embed-wrapper:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px rgba(113, 39, 186, 0.5);
+    }
+
+    .embed-title {
+    background: linear-gradient(135deg, rgba(113, 39, 186, 0.25), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(6px);
+    padding: 16px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffffcc;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      iframe {
+        height: 500px;
+      }
+
+      .activity-container h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ✅ Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">YosDev</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="activity.html" class="active">View Activity Log</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ✅ Main content -->
+  <main class="activity-container">
+    <h1>Activity Center</h1>
+
+    <!-- 🗂️ Activity Log -->
+    <div class="activity-section">
+      <div class="embed-wrapper">
+        <div class="embed-title">🗓️ Activity Log</div>
+        <iframe 
+          src="https://script.google.com/macros/s/AKfycbw5i5akP0iLRVcfbsb1kDhaKNXywX9osetjd_dt3_KE4FekaVznBm-n97ijHhojKvafjw/exec" 
+          allowfullscreen 
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- 📊 Activity Statistics -->
+    <div class="activity-section">
+      <div class="embed-wrapper">
+        <div class="embed-title">📊 Activity Statistics</div>
+        <iframe 
+          src="https://script.google.com/macros/s/AKfycbxHv8bNL2n_381QwvjxbyFnCHSRKS2bLxJGJ6mJWzkfc3SjHFBsFcr-Y7mlw474SbnLbg/exec" 
+          allowfullscreen 
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  </main>
+
+  <!-- ✅ Footer -->
+  <footer class="footer">
+    <p>© 2025 Yos Sebastian — Built with logic & love using Google Apps Script</p>
+  </footer>
+</body>
+</html>
